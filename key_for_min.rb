@@ -10,7 +10,7 @@ name_hash.each do |key, value|
     lowest_value = value
     lowest_key = key
  else    
-if name_hash[key] < lowest_value
+if value < lowest_value
   lowest_value = value
   lowest_key = key
  end
