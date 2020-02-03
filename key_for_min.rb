@@ -13,10 +13,9 @@ name_hash.each do |key, value|
 if name_hash[key] < lowest_value
   lowest_value = value
   lowest_key = key
-  
-else name_hash[key] > lowest_value
-  lowest_value != name_hash[key]
- 
+ end
+
 end
-end  
+end 
+lowest_key
 end
